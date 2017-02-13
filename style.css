@@ -1,0 +1,100 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    cursor: default;
+    background-color: #9fced1;
+}
+h1 {
+    color: #fd7cbf;
+    font-size: 40px;
+    font-family: Courier New, monospace;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+}
+
+#books {
+    margin: auto;
+    width: 60%;
+}
+
+.book_title{
+    color: lightseagreen;
+    font-style: italic;
+}
+.book_title:hover {
+    font-weight: bold;
+}
+
+.remove_book:hover {
+    color: indianred;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;    
+}
+
+.table {
+    height: 30px;
+    background-color: #f89c9c;
+    color: white;
+}
+
+#add {
+    text-align: center;
+}
+
+td , th{
+    border: none;
+    text-align: left;
+    width: 25%;
+}
+
+.book_description {
+    width: 100%;
+    opacity: 0.5;
+    padding: 15px;
+}
+
+.update_form {
+    text-align: center;
+    border: 1px;
+}
+
+.details {
+    background-color: #f3f3f3;
+    display: none;
+}
+
+input, textarea, button, label{
+    width: 300px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background-color: #f89c9c;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+#title {
+    margin: auto;
+    width: 60%;
+}
