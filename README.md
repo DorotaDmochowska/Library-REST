@@ -1,5 +1,1 @@
-# REST-API
-
-Aplikacja do wypożyczania książek metodą REST.
-
-
+Application to borrow books from library with REST method
